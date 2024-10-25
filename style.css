@@ -1,0 +1,20 @@
+div{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(244, 5, 5);
+    animation-name: abdalla;
+    animation-duration: 4s ;
+    animation-iteration-count: 4;
+}
+@keyframes abdalla {
+ 0% {background-color:red ; left: 0px; top: 0px;}
+ 25% {background-color:rgb(15, 15, 180) ; left: 200px; top: 0px;}
+ 50% {background-color:rgb(7, 170, 72) ; left: 200px; top: 200px;}
+ 75% {background-color:rgb(16, 175, 232) ; left: 0px; top: 200px;}
+ 100% {background-color:red ; left: 0px; top: 0px;}
+
+
+
+
+}
